@@ -1,0 +1,85 @@
+
+SRS for Cab Management System:
+1. Intoduction:
+Cab Service is an innovative thought to simplify the Transportation problems of Employees of an organization. In the present System, Organization do maintain a person for the allocating and proper functioning of transportation .The Person appointed needs to look after the assigning and movement of cabs.Authorized person maintains the transportation details in papers, which is a tedious task if any updations or changes need to be done. Maintenance is a huge problem. Updation, changes is a tedious task. Performace is not achieved up to the requirments. The digitalized cab management system makes it simple for the customers and company. Functionality and advantages of proposed system are data is Centralized which has overcome the Sharing problem in previous system. Data is maintained electronically, it’s easy for a person to update the details, which has overcome the tedious up dation in previous system. maintenance is easy and performance is good. Mainly the system has automated the transportation Process.
+1.1 Propose
+ The propose of the project is to build an efficient system to manage cabs and book cabs in a simple way. Allow the users and customer the manage their time work easily. The cab management system is based on the a database system that stores all the data of the customers and company with adavanced functionality.
+1.2 Scope of the project
+The primary aim of a Cab management is to make taxi booking more convenient for customers. It brings the riders and customers togather. booking a taxi is simple. To make traveling easier to enjoy when scheduling benefits and offers. To assist around the clock.Riding safely and securely. Simple payment methods.Customer satisfaction is the goal.Booking without stress.
+
+2 Functional requiremets
+Actors
+i. Customers
+ii. Admin
+iii. Drivers.
+
+Customer
+2.1 Login page
+Please don't put your users through a lengthy sign-up process by asking them for any payment information when they sign up. Most consumers prefer to pay with cash rather than using a credit card or an online money transfer tool.Keep the sign-up process accessible so your users have minor trouble getting started. Users have abandoned an app entirely if they go through a lengthy sign-up process. Simple questions. The user should recivie a OTP inoder to verify the mobile number.
+Name (Must contain only Characters.)
+Mobile phone number (Must contain only numbers with country code and  Unique)
+Email (unique and vaild)
+Username (Unique and valid)
+Password (Must contain a Upper case, Special Character and min 6 characters.)
+2.2 Booking procedure.
+The user must be able to enter pickup and destination location and the location must be spotted in google maps. 
+After confirming the locations. A taxi must be allocated to the user which is near by the pickup location. The driver must accept the ride so that the user gets the details of the captain, vehicle and to total fare. The user must be able to track the taxi location and arrival time when the ride is confirmed.
+Once the taxi is arrived and the ride starts the user must be able to see the total fare and approx time to reach destination.
+Customer must have a option to call the driver or admin inorder to solve any quires.
+2.3 Payment method
+Once the ride is over the user can pay the fare either through cash or via UPI.
+2.4 Ride cancelation:
+The user must have the rights to cancel the ride if needed. If the user cancels the 
+
+3. Taxi Driver.
+3.1 Register
+The driver should be able to register in the portal with all the following details
+1) First  Name -Cannot  include  any  character  or  number  ,  required  min length (10),max length (20) 
+2)Last name -Cannot include any character or number , required min length (10) , max length (20) 
+3)Phone number -Unique , maximum of 10 numbers +    Country code•Email -Unique , valid
+4)Password -Required   ,   min   length   (8)   include   special   characters   , uppercases , lowercases and number
+5)DoB -date
+4)Address -Min length(100)
+5)License number -Unique , numeric characters ,length(12)
+6)Cab model -Required , min length(10), alphanumeric
+7)Cab number -Required , min length(10), alphanumeric
+
+4.Driver Login Page
+The  driver  shall  enter  the  user  name  as  either  email  ID  or phone  number  and  password  and  click  the  submit  button  to  login  to  the  App  . Check  for  valid  email  ID  and  phone  number  .The  phone  number  must  be  unique and  it  require  maximum of  10  numbers  with  country  code and  also  it  should  not be start with zero or any other special character . Password should consist of min of   8   characters   including   uppercases,   lowercases,   special   characters   and numbers.Captcha  should  be  provided  containing    4-6  letters  or  numbers.If  the driver forgot the password    can be click the FORGOT PASSWORD button to reset the  password.  The  driver  shall  receive  an  OTP  in  email  and  phone  number  .  The driver shall enter the OTP and click submit . Then , the driverr shall enter the newright combination password two times and click update to reset the password 
+•Phone number -Unique , maximum of 10 numbers +    Country code
+•Email -Unique , valid
+•Password -Required   ,   min   length   (8)   include   special   characters   , uppercases , lowercases and number.
+
+4.1View the booking
+Driver can see all booking with the location details and customer info.
+Driver must have an option to callmthe customer and admin if there is any quries to be solved.
+Accept the booking
+After  viewing the booking , driver  have an option to accept or reject the booking . After accepting, the driver must be able to see the exact location of the customer in google maps.
+Cancellation
+Driver have an option to cancel the trip if the customer cancel the trip.
+
+5.Admin
+Admin  shall  enter  the  user  name  as  either  email  ID  or phone  number  and  password  and  click  the  submit  button  to  login  to  the  app  . Check  for  valid  email  ID  and  phone  number  .The  phone  number  must  be  unique and  it  require  maximum of  10  numbers  with  country  code and  also  it  should  not be start with zero or any other special character . Password should consist of min of   8   characters   including   uppercases,   lowercases,   special   characters   and numbers.Captcha should be provided containing    4-6 letters or numbers
+.•Phone number -Unique , maximum of 10 numbers +    Country code
+•Email -Unique , valid
+•Password -Required   ,   min   length   (8)   include   special   characters   , uppercases , lowercases and number.
+
+5.1View booking.
+Admins must be able to see bookings queue and allocate appropriate drivers to the near by locations.
+The admin must have a the options to solve the customer and driver quries via phone or email.
+
+5.2Updation
+Add  new  cabs  and  drivers  after  validating  information about the cab and driver .New driver details such as :
+•First  Name -Cannot  include  any  character  or  number  ,  required  min length (10) , max length (20)
+ •Last name -Cannot include any character or number , required min length (10) , max length (20) 
+•Phone number -Unique , maximum of 10 numbers +    Country code
+•Email -Unique , valid
+•DoB-date
+•Address -Min length(100)
+•license number -Unique , numeric characters ,length(12)
+•cab model -Required , min length(10), alphanumeric
+•cab number -Required , min length(10), alphanumeric3.4    Search the    bookingIn  this  page  , admin  can  search  the  booking  in  daily  or  weekly  based on the  date and time .
+•Date -DD/MM/YYYY format•Time -HH:MM format
+
+
+
